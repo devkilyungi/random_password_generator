@@ -5,10 +5,10 @@ void main() {
 }
 
 String generateRandomPassword() {
-  List alphabetLower = 'abcdefghijklmnopqrstuvwxyz'.split('');
-  List alphabetUpper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
-  List numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
-  List specialCharacters = ['@', '.', '_', '#', '\$', '&', '(', ')'];
+  List<String> alphabetLower = 'abcdefghijklmnopqrstuvwxyz'.split('');
+  List<String> alphabetUpper = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+  List<int> numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+  List<String> specialCharacters = ['@', '.', '_', '#', '\$', '&', '(', ')'];
 
   List<String> password = [];
 
