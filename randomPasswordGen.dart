@@ -26,8 +26,7 @@ String generateRandomPassword() {
         password.add(numbers[Random().nextInt(numbers.length)].toString());
         break;
       case 3:
-        password
-            .add(specialCharacters[Random().nextInt(specialCharacters.length)]);
+        password.add(specialCharacters[Random().nextInt(specialCharacters.length)]);
         break;
     }
   }
